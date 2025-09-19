@@ -11,8 +11,9 @@ cp ../cv.yaml ./
 docker run --rm -v $(pwd):/home/yamlresume yamlresume/yamlresume build cv.yaml 
 
 echo "Copying resume"
+rm cv-latest.pdf
 cp cv.pdf $BUILD_FILE
-ln -s -f $BUILD_FILE cv-latest.pdf
+cp cv.pdf cv-latest.pdf
 
 echo "Cleaning up"
 rm cv.aux cv.log cv.out cv.pdf cv.tex cv.yaml
