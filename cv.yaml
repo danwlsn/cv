@@ -1,0 +1,272 @@
+---
+content:
+  basics:
+    name: Danny Wilson
+    headline: Senior Software Engineer
+    phone: "+447934512125"
+    email: dwlsn@pm.me
+    url: https://danwilson.co
+    # All summary fields supports a limited rich text capabilities in markdown
+    # syntax:
+    #
+    # - bold, (e.g, `**bold**`)
+    # - italic, (e.g, `*italic*`)
+    # - ordered list, unordored list and nested sub list
+    # - links (e.g. `[link](https://ppresume.com)`)
+    summary: |
+      Senior Software Engineer with 10+ years of experience building scalable cloud solutions and leading technical initiatives. Proven track record of architecting serverless systems, utilizing automated testing approaches, and driving software practices across agile teams. Expertise in AWS, Python, and modern CI/CD pipelines, with a strong focus on robust and performant systems. Experienced in mentoring junior developers and establishing coding standards that improve team velocity and code quality.
+  location:
+    region: Wales
+    country: United Kingdom
+  profiles:
+    - network: LinkedIn
+      url: https://www.linkedin.com/in/danwlsn/
+      username: danwlsn
+    - network: GitHub
+      url: https://github.com/danwlsn
+      username: danwlsn
+  education:
+    - institution: Manchester Metropolitan University
+      # Valid degree options:
+      #
+      # - 'Middle School'
+      # - 'High School'
+      # - 'Diploma'
+      # - 'Associate'
+      # - 'Bachelor'
+      # - 'Master'
+      # - 'Doctor'
+      degree: Bachelor
+      area: Web and Mobile Application Development
+      score: "Upper Second-Class"
+      # Should be a valid date string that can be parsed by `new Date(dateStr)`
+      # in JavaScript, eg. '2020-01', '2020-02-03', 'Jul 1, 2023' etc.
+      #
+      # The date part would be removed in the final output as most of the time
+      # people won't really care about the exact date for your working
+      # experience or education background, etc.
+      # ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+      startDate: 2011-09
+      # Leave endDate blank to indicate "Present"
+      endDate: 2014-07
+      courses:
+        - Advanced Programming First
+        - Data Structures and Algorithms First
+        - Web and Mobile Application Development First
+        - Professional Development First
+  work:
+    - name: Qodea
+      url: https://qodea.com
+      startDate: 2023-09
+      endDate: ""
+      position: Senior Software Engineer
+      summary: |
+        - Rebuilt legacy API to improve scaleability, security, and allow future feature development
+        - Rebuilt a PDF delivery network using Google Cloud Platform technologies
+        - Established strong automated testing approach to improve code reliability, increase product owner and QA satisfaction, and build a common lexicon when discussing tests
+        - Worked with Google on custom AI agents to increase utilitisation of an internal growth platform by reducing friction with content discovery
+        - Reduced cost of querying billing data using partitions
+      keywords:
+        - Google Cloud Platform
+        - Vertex AI / Agent Space
+        - BigQuery
+    - name: DA Languages
+      url: https://dalanguages.com
+      startDate: 2022-12
+      endDate: 2023-06
+      position: Senior Software Engineer
+      summary: |
+        - Increased quality of software produced with defined software standards, review checklists, and improved CI pipelines to perform code checks
+        - Helped knowledge share within team and future hires by improving onboarding documentation and process, and reviewing and amending project documentation
+        - Increased participation and efficiency in agile ceremonies by using known retrospective formats, tracked outcomes and progression of retro notes.
+        - Reduced sprint planning and review times with a repeatable process, decreasing time spent in meetings and increasing moral and participation
+      keywords:
+        - Leadership 
+        - Software developer experience
+        - Processes
+    - name: Co-op Digital
+      url: https://digitalblog.coop.co.uk/
+      startDate: 2018-07
+      endDate: 2021-10
+      position: Software Engineer
+      summary: |
+        - Migrated legacy software to use containers, a modern package manager, and multi-tenanted capabilities
+        - Reduced lead-time on pre-sale funeral plans with a serverless and SPA design integrating with a SOAP backend
+        - Reduce the complexity of managing many different websites with a shared build system for CMS websites, a common design system used across different business areas, and a single hosting platform managed by a single team using Kubernetes
+      keywords:
+        - Python/Django/Flask
+        - Distributed systems
+        - System architecture
+        - Docker and Kubernetes
+        - Trunk based development
+        - Test driven development
+        - Pair/mob programming
+    - name: Dentsu
+      url: https://www.dentsu.com/
+      startDate: 2017-10
+      endDate: 2018-07
+      position: Lead Developer
+      summary: |
+        - Mentor other developers on the team to progress their careers
+        - Maintain and teach developers how to work with the internal tools
+        - Leading on digital pitches
+        - Helping with recruitment
+      keywords:
+        - Pitching
+        - Leading and managing engineers
+    - name: Dentsu
+      url: https://www.dentsu.com/
+      startDate: 2014-06
+      endDate: 2016-06
+      position: Frontend Developer
+      summary: |
+        - Consistently delivered high throughput eCRM campaigns for large clients
+        - Developed a email build system cutting errors down to almost 0 and increased productivity 4x
+        - Built a internal application for sharing interesting articles among the agency
+        - Worked on a handful of interesting IoT-lite projects: a slack integration for a coffee cam, a live video link between offices, integrating Christmas tree lights with Twitter
+      keywords:
+        - Build systems
+        - Custom internal tools
+        - API integrations
+  skills:
+    # Valid skill level options:
+    #
+    # - 'Novice'
+    # - 'Beginner'
+    # - 'Intermediate'
+    # - 'Advanced'
+    # - 'Expert'
+    # - 'Master'
+    - name: Web Development
+      level: Expert
+      keywords:
+        - Python
+        - JavaScript/Typescript
+        - NOSQL and SQL Databases
+    - name: Software engineering
+      level: Expert
+      keywords:
+        - Bash
+        - CI/CD pipelines
+        - REST API
+        - Automated testing
+        - Design Patterns
+        - Event driven architecture
+    - name: Cloud Development
+      level: Expert
+      keywords:
+        - Google Cloud Platform
+        - AWS
+        - Docker
+        - Distribted Systems
+        - Serverless systems
+        - Kubernetes
+        - Object storage
+    - name: Extreme Programming
+      level: Intermediate
+      keywords:
+        - Test Driven Development
+        - Pair programming
+        - Trunk based development
+        - Kanban
+  certificates:
+    - name: Google Cloud Professional Development
+      url: https://cloud.google.com/learn/certification/cloud-developer
+      issuer: Google Cloud
+      date: 2024-08
+  projects:
+    - name: This CV
+      description: A CV defined in YAML and rendered to PDF
+      startDate: 2025-09
+      endDate: ""
+      summary: |
+        - Using the spec outlined in https://yamlresume.com/
+        - build a PDF from a YAML definiton
+        - Serve the content from the YAML resume as an API
+      keywords:
+        - yaml
+        - python
+    - name: CragWeather
+      description: A weather app for climbers
+      startDate: 2024-06
+      endDate: 2024-12
+      summary: |
+        - Pulls weather information on favourite climbing locations
+        - Compares the weather data and reccommends the best place to go climbing 
+        - Sends an email report each day for the weekend
+      keywords:
+        - Go
+        - MVP
+    - name: (De)NS - Cosmos Network
+      description: Usernames as NFTs
+      startDate: 2022-04
+      endDate: 2022-06
+      summary: |
+        - Frontend application for interacting with the (De)NS smart contract
+      keywords:
+        - Web3
+        - NFT
+        - Blockchain
+    - name: HALA
+      description: Contextual music player
+      startDate: 2017-01
+      endDate: 2020-04
+      summary: |
+        - Music player that displays informatin around the artist, album, or track
+        - Users could create or consume their own stories
+        - MVP built using Django and contained an automated story building from wikipedia articles
+      keywords:
+        - Python/Django
+        - Bootstraped
+        - MVP
+  interests:
+    - name: Outdoor activites
+      keywords:
+        - Rock Climbing
+        - Surfing
+        - Running
+        - Hiking
+    - name: Homelab
+      keywords:
+        - proxmox
+        - selfhosted
+    - name: Music
+      keywords:
+        - Collecting records
+        - Playing guitar
+  volunteer:
+    - organization: Django Girls Manchester
+      url: https://djangogirls.org/en/
+      position: Tech Mentor
+      startDate: 2019-06
+      endDate: 2019-06
+      summary: |
+        - Two day workshop helping women learn the basics of the Django web framework
+
+layout:
+  locale:
+    # Use `yamlresume languages list` to get the list of supported languages
+    language: en
+  margins:
+    top: 2.5cm
+    left: 1.5cm
+    right: 1.5cm
+    bottom: 2.5cm
+  page:
+    showPageNumbers: true
+  # Use `yamlresume templates list` to get the list of available templates
+  template: moderncv-casual
+  typography:
+    # LaTeX engine only supports 10pt, 11pt, and 12pt
+    fontSize: 12pt
+  sections:
+    aliases:
+      basics: About me
+    order:
+      - basics
+      - work
+      - education
+      - skills
+      - certificates
+      - volunteer
+      - projects
