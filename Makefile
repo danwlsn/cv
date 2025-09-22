@@ -25,6 +25,10 @@ api/app.tar.gz: api/api/*.py api/requirements.txt
 api/requirements.txt: api/pyproject.toml
 	poetry -C api export -o api/requirements.txt
 
+.PHONE: api-install
+api-install:
+	poetry -C api install
+
 .PHONY: api-serve
 api-serve:
 	poetry -C api run fastapi dev api/api/main.py
